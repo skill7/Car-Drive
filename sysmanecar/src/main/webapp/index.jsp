@@ -6,8 +6,9 @@
 
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet">
-
+<link href="resources/css/animations.css" rel="stylesheet"/>
 <link href="resources/css/materialize.min.css" rel="stylesheet" />
+<link href="resources/css/personalize.css" rel="stylesheet">
 </head>
 <body>
 	<!--   	Menu -->
@@ -54,47 +55,34 @@
 		<!-- Paquetes -->
 		<div class="col s12 m10 l10">
 			<div class="col s12 m5 l5" style="">
-				<div class="card horizontal  red darken-1">
+				<div class="card horizontal  amber lighten-1">
 					<div class="card-content white-text">
-						<span class="card-title center-align"><h1>PACK PREMIUM</h1></span>
-						<div class="col s12 m6 l6">
-
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-
-						</div>
-						<div class="col s12 m6 l6">
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i>adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">send</i> adajsnd najdsn ajsdn aj
-							</p>
-						</div>
+						<span class="card-title"><h1
+								class="black-text center-align">
+								Pack <strong class="red-text">Premium</strong>
+							</h1></span>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> 10hrs de manejo
+							personalizado
+						</p>
+						<br>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> 14hrs de clases teoricas
+							de manejo online
+						</p>
+						<br>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> Examen médico
+						</p>
+						<br>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> 2hrs de manejo en el
+							circuito alterno de Conchan
+						</p>
+						<br>
 						<div class="card-action">
-							<a>This is a link</a> <a>This is a link</a>
+							<a href="#" class="red-text pulse" id="hover"><strong>Obtener
+									Ahora!</strong></a>
 						</div>
 					</div>
 				</div>
@@ -103,48 +91,30 @@
 		</div>
 		<div class="col s12 m10 l10">
 			<div class="col s12 m5 l5" style="">
-				<div class="card horizontal cyan darken-1">
+				<div class="card horizontal red">
 					<div class="card-content white-text">
-						<span class="card-title center-align"><h1>PACK
-								STANDARD</h1></span>
-						<div class="col s12 m6 l6">
+						<span class="card-title center-align"><h1
+								class="black-text center-align">
+								Pack <strong class="amber-text">Master</strong>
+							</h1></span>
 
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-
-						</div>
-						<div class="col s12 m6 l6">
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-							<p>
-								<i class="material-icons">check</i> adajsnd najdsn ajsdn aj
-							</p>
-						</div>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> 14hrs de clases teoricas
+							de manejo online
+						</p>
+						<br>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> Examen médico
+						</p>
+						<br>
+						<p class="black-text">
+							<i class="tiny material-icons">send</i> 2hrs de manejo en el
+							circuito alterno de Conchan
+						</p>
+						<br>
 						<div class="card-action">
-							<a href="#">This is a link</a> <a href="#">This is a link</a>
+							<a href="#" class="amber-text pulse"><strong>Obtener
+									Ahora!</strong></a>
 						</div>
 					</div>
 				</div>
@@ -157,25 +127,35 @@
 	<footer class="page-footer green accent-3 ">
 		<div class="container">
 			<div class="row">
-				<div class="col m6 l6 s12">
-					<h5 class="white-text">DIRECCION</h5>
-					<p>
+				<div class="col m6 l6 s12 animatedParent">
+					<h5 class="white-text animated bounceInDown slowest">DIRECCION:</h5>
+					<p class="animated bounceInDown slowest">
 						Av. J.C. Mariátegui,<br /> S/N Zona "B" ,<br /> Huaycán - Ate<br />
 						Lima-Perú
 					</p>
-					<h5>Llámanos</h5>
-					<p>
+					<h5 class="animated bounceInDown slowest">Llámanos:</h5>
+					<p class="animated bounceInDown slowest">
 						Teléfonos:<br /> 371-6049 / 371-6797<br /> 371-5979 / 371-5530<br />
 					</p>
 				</div>
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">FANT-PAGES</h5>
-					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-					</ul>
+					<br>
+					<div class="col l3 m3 s3">
+						<a href="#"><img style="width:30px; height: 30px"  class="circle responsive-img" alt="404" src="resources/img/fb.png"></a>
+					</div>
+					<div class="col l3 m3 s3">
+						<a href="#"><img style="width:30px; height: 30px"  class="circle responsive-img" alt="404" src="resources/img/instagram.png"></a>
+					</div>
+					<div class="col l3 m3 s3">
+						<a href="#"><img style="width:30px; height: 30px"  class="circle responsive-img" alt="404" src="resources/img/twitter.png"></a>
+					</div>
+					<div class="col l3 m3 s3">
+						<a href="#"><img style="width:30px; height: 30px"  class="circle responsive-img" alt="404" src="resources/img/yt.png"></a>
+					</div><br><br><br>
+					<h5 class="white-text">Tip de Conducción</h5>
+					
+					<p class="center-align">" Hay que educar la vista para mirar a lo lejos y anticiparse a todo lo que pueda suceder por delante. "</p>
 				</div>
 			</div>
 		</div>
@@ -189,8 +169,23 @@
 	</footer>
 
 	<!-- 	SCRIPTS -->
-	<script type="resources/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	<script src="resources/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="resources/js/css3-animate-it.js"></script>
 	<script src="resources/js/materialize.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$.doTimeout(2500, function() {
+			$('.repeat.go').removeClass('go');
 
+			return true;
+		});
+		$.doTimeout(2520, function() {
+			$('.repeat').addClass('go');
+			return true;
+		});
+
+	});
+	</script>
 </body>
 </html>
